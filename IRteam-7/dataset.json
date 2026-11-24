@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "title": "Boolean Retrieval and Inverted Indexes",
+    "category": "IR Basics",
+    "abstract": "Explains Boolean retrieval using AND, OR and NOT operators. An inverted index maps each term to the documents containing it, enabling efficient set-based retrieval.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 2,
+    "title": "The Vector Space Model for Document Retrieval",
+    "category": "IR Basics",
+    "abstract": "Represents documents and queries as weighted term vectors. Similarity between a query and document can be measured using cosine similarity in a high-dimensional term space.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 3,
+    "title": "Information Retrieval: An Introduction",
+    "category": "IR Basics",
+    "abstract": "Introduces the goals of information retrieval, document collections, indexing, query processing, ranking, and evaluation of search systems.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 4,
+    "title": "Tokenization and Text Normalization",
+    "category": "Query Processing",
+    "abstract": "Describes splitting text into tokens and normalizing case, punctuation, and word forms before indexing. Consistent preprocessing improves matching between queries and documents.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 5,
+    "title": "Stop Word Removal in Search",
+    "category": "Query Processing",
+    "abstract": "Discusses removing very common words such as the, is, and of to reduce index size and limit low-value matches. Stop word removal can sometimes remove meaningful terms.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 6,
+    "title": "Stemming and Lemmatization",
+    "category": "Query Processing",
+    "abstract": "Compares reducing words to stems with mapping inflected words to dictionary base forms. These normalization methods can improve recall when users search with different word forms.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 7,
+    "title": "Phrase Queries and Positional Indexes",
+    "category": "Query Processing",
+    "abstract": "Explains how positional indexes store token positions so a search engine can match exact phrases and terms occurring near one another.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 8,
+    "title": "Spelling Correction and Query Suggestions",
+    "category": "Query Processing",
+    "abstract": "Covers spelling correction, edit distance, and query suggestions that help users recover from typographical errors and express their information need.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 9,
+    "title": "Term Frequency and Document Frequency",
+    "category": "Ranking",
+    "abstract": "Defines term frequency as the number of occurrences of a term in a document and document frequency as the number of documents containing that term.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 10,
+    "title": "TF-IDF Weighting for Search Ranking",
+    "category": "Ranking",
+    "abstract": "Explains term frequency inverse document frequency weighting. Terms frequent in a document but rare across the collection receive higher weights and can distinguish relevant documents.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 11,
+    "title": "Cosine Similarity in Text Retrieval",
+    "category": "Ranking",
+    "abstract": "Describes cosine similarity as the normalized dot product between query and document vectors. It compares vector direction and is commonly used with TF-IDF representations.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 12,
+    "title": "BM25 Probabilistic Ranking",
+    "category": "Ranking",
+    "abstract": "Introduces BM25 as a probabilistic ranking function using term frequency saturation, inverse document frequency, and document length normalization.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 13,
+    "title": "Document Length Normalization",
+    "category": "Ranking",
+    "abstract": "Explains why long documents may contain more term matches simply because they contain more words. Length normalization adjusts scores to avoid unfair advantages for long records.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 14,
+    "title": "Title and Field Weighting in Search",
+    "category": "Ranking",
+    "abstract": "Studies assigning greater importance to terms in titles, headings, and other fields than in body text. Field weighting can improve ranking when titles summarize document topics.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 15,
+    "title": "Query Expansion with Synonyms",
+    "category": "Query Processing",
+    "abstract": "Explains adding related words and synonyms to a query to retrieve documents that use different vocabulary. Expansion may improve recall but can introduce irrelevant results.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 16,
+    "title": "Relevance Feedback in Information Retrieval",
+    "category": "Ranking",
+    "abstract": "Describes using user judgments on initial search results to refine a query or update term weights, helping the system move toward more relevant documents.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 17,
+    "title": "Precision and Recall for Search Evaluation",
+    "category": "Evaluation",
+    "abstract": "Defines precision as the fraction of retrieved documents that are relevant and recall as the fraction of all relevant documents that are retrieved.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 18,
+    "title": "Precision at K for Ranked Retrieval",
+    "category": "Evaluation",
+    "abstract": "Explains Precision at K as the proportion of the top K ranked results that are relevant. It emphasizes the quality of the first results shown to a searcher.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 19,
+    "title": "Mean Average Precision",
+    "category": "Evaluation",
+    "abstract": "Introduces average precision across recall levels and mean average precision across multiple queries as measures for evaluating ranked retrieval systems.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 20,
+    "title": "NDCG and Graded Relevance",
+    "category": "Evaluation",
+    "abstract": "Explains normalized discounted cumulative gain, which rewards highly relevant documents near the top of a ranking and supports graded relevance judgments.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 21,
+    "title": "Test Collections and Relevance Judgments",
+    "category": "Evaluation",
+    "abstract": "Describes building evaluation collections with documents, test queries, and relevance judgments. Consistent judgments make comparisons between retrieval methods meaningful.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 22,
+    "title": "A/B Testing Search Ranking Changes",
+    "category": "Evaluation",
+    "abstract": "Discusses comparing alternative ranking systems using controlled experiments, user interaction measures, and offline relevance metrics.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 23,
+    "title": "Web Crawling and Search Indexing",
+    "category": "Web Search",
+    "abstract": "Explains how crawlers discover web pages, fetch content, follow links, and provide pages for indexing by a search engine.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 24,
+    "title": "Link Analysis and PageRank",
+    "category": "Web Search",
+    "abstract": "Describes using the web link graph to estimate page importance. PageRank distributes importance through incoming links and complements text-based relevance.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 25,
+    "title": "Search Engine Index Construction",
+    "category": "Web Search",
+    "abstract": "Covers collecting documents, parsing content, building dictionaries and postings lists, and storing indexes to support efficient query execution.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 26,
+    "title": "Distributed Information Retrieval",
+    "category": "Web Search",
+    "abstract": "Explains partitioning indexes and processing queries across multiple machines. Distributed retrieval improves scalability for very large document collections.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 27,
+    "title": "Learning to Rank for Search",
+    "category": "Ranking",
+    "abstract": "Introduces machine learning methods that combine query-document features to rank results using training data and relevance labels.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 28,
+    "title": "Neural Information Retrieval",
+    "category": "Ranking",
+    "abstract": "Surveys neural methods that encode queries and documents into dense representations. Semantic matching can retrieve relevant content even when exact words differ.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 29,
+    "title": "Dense Passage Retrieval",
+    "category": "Ranking",
+    "abstract": "Explains dual-encoder retrieval where query and passage embeddings are compared, often using inner product or vector similarity to find semantically related passages.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 30,
+    "title": "Evaluation of Search Systems with User Studies",
+    "category": "Evaluation",
+    "abstract": "Covers user-centered evaluation including task success, satisfaction, click behavior, and time to find information, complementing offline metrics.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 31,
+    "title": "Natural Language Processing for Search",
+    "category": "Query Processing",
+    "abstract": "Explains how NLP techniques such as entity recognition, language modeling, and semantic analysis can improve query understanding and document retrieval.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 32,
+    "title": "Named Entity Recognition in Search",
+    "category": "Query Processing",
+    "abstract": "Describes identifying people, places, organizations, and other named entities in text. Entity-aware search can disambiguate queries and improve precision.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 33,
+    "title": "Semantic Search and Word Embeddings",
+    "category": "Ranking",
+    "abstract": "Explains semantic search using word or sentence embeddings to capture meaning and relationships beyond exact keyword overlap.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 34,
+    "title": "Federated Search Across Multiple Sources",
+    "category": "Web Search",
+    "abstract": "Describes searching multiple independent collections and merging their ranked results, including score normalization and source selection.",
+    "source": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 35,
+    "title": "Privacy and Security in Search Logs",
+    "category": "Web Search",
+    "abstract": "Discusses privacy risks in query logs, data minimization, access controls, retention limits, and protecting sensitive user search activity.",
+    "source": "https://www.nist.gov/itl",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  },
+  {
+    "id": 36,
+    "title": "Multilingual Information Retrieval",
+    "category": "Query Processing",
+    "abstract": "Explains retrieving documents across languages using translation, multilingual representations, and language-aware tokenization and normalization.",
+    "source": "https://nlp.stanford.edu/IR-book/",
+    "source_note": "Original educational summary; see linked Information Retrieval / NIST reference for background."
+  }
+]

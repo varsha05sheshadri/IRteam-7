@@ -1,0 +1,125 @@
+[
+  {
+    "query": "information retrieval search system basics",
+    "type": "Broad",
+    "relevant_ids": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      17,
+      23,
+      25,
+      31
+    ]
+  },
+  {
+    "query": "ranking documents using term frequency and inverse document frequency",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      27
+    ]
+  },
+  {
+    "query": "evaluate search results precision recall precision at five",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      30
+    ]
+  },
+  {
+    "query": "process user query tokenization stop words stemming",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      15,
+      31,
+      32,
+      36
+    ]
+  },
+  {
+    "query": "web crawler indexing pages and links",
+    "type": "Broad",
+    "relevant_ids": [
+      23,
+      24,
+      25,
+      26,
+      34
+    ]
+  },
+  {
+    "query": "semantic retrieval neural embeddings dense passages",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      28,
+      29,
+      33,
+      2,
+      3
+    ]
+  },
+  {
+    "query": "search ranking title fields and document length",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      13,
+      14,
+      10,
+      11,
+      12,
+      27
+    ]
+  },
+  {
+    "query": "user feedback improve search results",
+    "type": "Broad",
+    "relevant_ids": [
+      16,
+      22,
+      30,
+      17,
+      18
+    ]
+  },
+  {
+    "query": "search across languages and different sources",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      34,
+      36,
+      26,
+      31,
+      33
+    ]
+  },
+  {
+    "query": "privacy protection for search engine query logs",
+    "type": "Topic-specific",
+    "relevant_ids": [
+      35,
+      30,
+      23,
+      26
+    ]
+  }
+]
